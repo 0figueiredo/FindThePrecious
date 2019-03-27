@@ -1,0 +1,186 @@
+body{
+	width: 1200px;
+	margin:auto;
+	min-width: 850px;
+	overflow-x: scroll; 
+	
+}
+
+a{
+	color: orange;
+	text-decoration: none;
+}
+
+
+
+li{
+	list-style-type: none;
+}
+
+h1{
+	font-size: 2em;
+	margin:0px;
+}
+
+h2{
+	font-size:1.5em;
+	color: #616161;
+	font-weight: normal;
+}
+
+h4{
+	font-size:1.2em;
+  color: #616161;
+	font-weight: bold;
+}
+
+p{
+	color: #616161;
+}
+
+/* menu */
+#Statut{
+  text-align : splace-between;
+  font-size: 20px;
+  justify-content: space-around;
+  display: flex;
+  color: #616161;
+	padding-bottom: 5px;
+}
+
+a : #Statut{
+  color : 
+}
+
+/* Fellows */
+.parentcontainer{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+.container{
+    position: relative;
+    width: 270px;
+    height: auto;
+    
+}
+
+.photofellows{
+    width: 300px;
+    height:350px;
+    display: block;
+    opacity: 0.5;
+}
+
+.reward_fellows{
+    top: 0px;
+    position: absolute;
+    border: 1px;
+    border-radius: 0.5em;
+    background-color: rgb(224, 216, 216);
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    font-size: 1.7em;
+    margin: 15px 1px 0 10px;
+    padding-top: 15px;   
+}
+
+span{
+    color: darkorange;
+}
+
+.dead{
+    position: absolute;
+    font-size: 60px;
+    text-transform: uppercase;
+    top: 20%;
+    left: 25%;
+}
+
+.name_fellows{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top: 60%;
+    left: 20%;
+}
+
+.container:hover img{
+    opacity:1;
+}
+.container:hover .reward_fellows{
+    display: none;
+}
+
+.container:hover .dead{
+    color:white;
+}
+
+.container:hover .name_fellows{
+    font-size: 30px;
+    opacity: 1;
+    top: 75%;
+    bottom: 0;
+    left: 30%;
+}
+
+header{
+	display: flex;
+	justify-content:space-between;
+	align-items: flex-end;
+	background-color: #616161;
+	color: #F5F5F5;
+	border-style: solid;
+	border-color: #616161;
+}
+
+header h1{
+	width:25%;
+}
+
+nav{
+	width: 75%;
+}
+
+header ul{
+	display: flex;
+	justify-content:space-around;
+	font-size: 1.2em;
+	margin:0px;
+}
+
+header li{
+	display: block;
+	height: 100%;
+}
+
+header a{
+	display: block;
+	padding:5px;
+}
+header a:hover{
+	background-color: #F5F5F5;
+	padding:auto;
+	color:grey;
+}
+
+#background{
+	position: relative;
+	width:100%;
+	height:140px;
+}
+
+#background article{
+	position:absolute;
+	text-align: center;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
