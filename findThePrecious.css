@@ -1,21 +1,3 @@
-ody{
-	width: 1200px;
-	margin:auto;
-	min-width: 850px;
-	overflow-x: scroll; 
-	
-}
-
-a{
-	color: orange;
-	text-decoration: none;
-}
-
-
-
-li{
-	list-style-type: none;
-}
 
 h1{
 	font-size: 2em;
@@ -23,19 +5,24 @@ h1{
 }
 
 h2{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 	font-size:1.5em;
 	color: #616161;
 	font-weight: normal;
 }
 
 h4{
+	margin-top: 1rem;
+	text-align: center;
 	font-size:1.2em;
-  color: #616161;
+    color: #616161;
 	font-weight: bold;
 }
 
 p{
 	color: #616161;
+	text-align: center;
 }
 
 /* menu */
@@ -45,20 +32,12 @@ p{
   justify-content: space-around;
   display: flex;
   color: #616161;
-	padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
-a : #Statut{
-  color : 
-}
 
 /* Fellows */
-.parentcontainer{
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    
-}
+
 
 .container{
     position: relative;
@@ -82,8 +61,8 @@ a : #Statut{
     background-color: rgb(224, 216, 216);
     text-align: center;
     width: 100%;
-    height: 80px;
-    font-size: 1.7em;
+    height: 90px;
+    font-size: 1.5em;
     margin: 15px 1px 0 10px;
     padding-top: 15px;   
 }
