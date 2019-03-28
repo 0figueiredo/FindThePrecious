@@ -21,7 +21,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#fellows">Fellows <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#fellows">Fellows <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="#rewards">Get My reward</a>
             <a class="nav-item nav-link" href="#hunters">Best hunters</a>
             <a class="nav-item nav-link" href="#ring">The Ring</a>
@@ -32,8 +32,7 @@
       </nav>
     </header>
 
-    <div class="bd-example">
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <div id="carouselPrecious" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -71,7 +70,7 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </div>
+    
 
     <section id="fellows">
       <h2 style="text-align: center;"> Fellows wanted dead <span style="font-size: 16px;">(or alive if you want to eat
@@ -123,28 +122,45 @@
       </div>
     </section>
 
-    <section id="reward">
-      <h2>I have captured one of them, how to get my reward ?</h2>
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim
-        sit
-        amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a,
-        semper
-        congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam
-        nisl
-        sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque
-        congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in
-        pede.
-        Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque
-        fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
-      <a href="https://placeholder.com"><img src="https://via.placeholder.com/140x140" alt="reward"></a>
-      <a href="#contact"> Contact us </a>
+    <section id="reward" class="container_reward">
+      <div class="row justify-content-around">
+        <article class="col-sm-12 col-md-7">
+          <h2>I have captured one of them, how to get my reward ?</h2>
+          <p style="color:#616161;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor,
+            dignissim
+            sit
+            amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a,
+            semper
+            congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum
+            diam
+            nisl
+            sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque
+            congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in
+            pede.
+            Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis
+            in
+            faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque
+            fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
+        </article>
+        <div class="col-sm-12 col-md-3">
+          <a href="https://placeholder.com"><img style="margin-top: 4rem;"src="https://via.placeholder.com/140x140" alt="reward"></a>
+          <button href="#contact" style="margin-top: 3rem;" type="button" class="btn btn-secondary">Contact us</button>
+        </div>
+      </div>
     </section>
 
-    <section id="hunters">
+    <section id="hunters" class="container_hunters">
       <h2>Best hunters</h2>
       <div>
-        <figure id="ElvesKiller22">
+          <div class="media">
+              <img src="https://via.placeholder.com/70x70" class="align-self-center mr-3" alt="Eveskiller22">
+              <div class="media-body">
+                <h5 class="mt-0">ElvesKiller22</h5>
+                <p>2 captures <span href="Profile">Profile</span></p>
+                <a href=""> Like </a>
+              </div>
+            </div>
+       <!--<figure id="ElvesKiller22">
           <figcaption>
             <h4>ElvesKiller22</h4>
           </figcaption>
@@ -152,7 +168,7 @@
           <p>2 captures</p>
           <a href="">Profile</a>
           <a href=""> Like </a>
-        </figure>
+        </figure>-->
       </div>
       <div>
         <figure id="Goblin45">
